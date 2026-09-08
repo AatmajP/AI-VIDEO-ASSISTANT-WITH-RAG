@@ -15,3 +15,4 @@ def split_transcript(transcript: str) -> list:
         chunk_size = 3000,
         chunk_overlap = 200
     )
+    return splitter.split_text(transcript)
