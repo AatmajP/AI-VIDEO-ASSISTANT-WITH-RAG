@@ -41,7 +41,7 @@ def download_youtube_audio(url :str) ->str:
     return str(filename)
 
 
-data=download_youtube_audio("https://youtu.be/EK0zslJgx1Q?si=W5JrukdNGCc66bnG")
+#data=download_youtube_audio("https://youtu.be/EK0zslJgx1Q?si=W5JrukdNGCc66bnG")
 
 
 # Convert any audio/video file to WAV format 
@@ -53,7 +53,7 @@ def convert_to_wav(input_path: str) -> str:
     audio.export(output_path, format="wav")
     return output_path
 
-data_final = convert_to_wav(data)
+
 
 # Split a WAV file into chunks
 #helps in processing large audio files by breaking them into 
@@ -73,4 +73,3 @@ def chunk_audio(wav_path : str , chunk_minutes : int = 10) -> list:
     
     return chunks
 
-print(chunk_audio(data_final))
