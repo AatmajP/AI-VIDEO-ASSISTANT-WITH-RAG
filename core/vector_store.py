@@ -7,6 +7,7 @@ from langchain_core.documents import Document
 CHROMA_DIR = "vector_db"
 COLLECTION_NAME = "meeting_transcript"
 EMBEDDING_MODEL  = "all-MiniLM-L6-v2"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 def get_embeddings():
     return HuggingFaceEmbeddings(
