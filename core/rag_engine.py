@@ -11,3 +11,6 @@ def get_llm():
         groq_api_key=os.getenv("GROQ_API_KEY"),
         temperature=0.3,
     )
+
+def format_docs(docs):
+    return "\n\n".join([doc.page_content for doc in docs])
