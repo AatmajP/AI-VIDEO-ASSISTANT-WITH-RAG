@@ -13,3 +13,27 @@ def get_embeddings():
         model_name = EMBEDDING_MODEL,
         model_kwargs = {"device" : 'cpu'}
     )
+
+def build_vector_store(transcript : str)->Chroma:
+    print("Building vector Store")
+
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size = 500,
+        chunk_overlap = 50
+    )
+    chunks = splitter.split_text(transcript)
+
+    docs = [
+        Document(page_content=chunk, metadata = {'chunk_index' : i})
+        for i,chunk in enumerate(chunks)
+    ]
+
+    embeddings = get_embeddings()
+    vector_store = Chroma.from_documents(
+        documents= docs,
+        embedding=embeddings,
+        collection_name=COLLECTION_NAME,
+        persist_directory=CHROMA_DIR
+    )
+
+    return vector_store
