@@ -76,7 +76,7 @@ def chunk_audio(wav_path : str , chunk_minutes : int = 10) -> list:
 
 def process_input(source: str) -> list:
     if source.startswith(("http://", "https://")):
-        print("Detected YouTube URL. Downloading audio...")
+        print("Detected YouTube URL. Downloading audio")
         wav_path = download_youtube_audio(source)
     else:
         print("Detected local file. Converting to WAV...")
