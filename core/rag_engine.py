@@ -9,7 +9,7 @@ def get_llm():
     return ChatGroq(
         model="openai/gpt-oss-20b",
         groq_api_key=os.getenv("GROQ_API_KEY"),
-        temperature=0.3,
+        temperature=0.4,
     )
 
 def format_docs(docs):
