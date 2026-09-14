@@ -17,7 +17,7 @@ def run_pipeline(source :str, language :str = "english") -> dict:
 
     title = generate_title(transcript)
 
-    summary = summarizer(transcript)
+    summary = summarize(transcript)
 
     action_item = extract_action_items(transcript)
 
