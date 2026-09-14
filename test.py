@@ -51,6 +51,7 @@ print("🔑 KEY DECISIONS")
 print("=" * 60)
 print(decisions)
 
+#tells the user what the open questions are
 print("\n" + "=" * 60)
 print("❓ OPEN QUESTIONS")
 print("=" * 60)
