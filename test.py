@@ -38,6 +38,8 @@ action_items = extract_action_items(transcript)
 decisions = extract_key_decisions(transcript)
 questions = extract_questions(transcript)
 
+
+#tells the user what the action items
 print("\n" + "=" * 60)
 print("✅ ACTION ITEMS")
 print("=" * 60)
