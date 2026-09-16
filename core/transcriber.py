@@ -16,7 +16,7 @@ def _load_wav_samples(chunk_path: str) -> np.ndarray:
         sample_rate = wav_file.getframerate()
         frames = wav_file.readframes(wav_file.getnframes())
 
-    if sample_width != 2:
+    if sample_width != 2: # 2 bytes = 16 bits 
         raise ValueError(f"Expected 16-bit WAV audio, got {sample_width * 8}-bit audio")
 
     samples = np.frombuffer(frames, dtype=np.int16).astype(np.float32) / 32768.0
