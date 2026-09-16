@@ -9,7 +9,7 @@ from core.rag_engine import build_rag_chain, ask_question
 
 load_dotenv()
 
-# ─── Page Config ────────────────────────────────────────────────────────────────
+# ─── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="AI Video Assistant",
     page_icon="🎬",
