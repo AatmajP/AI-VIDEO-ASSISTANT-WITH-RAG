@@ -6,7 +6,7 @@ import numpy as np
 
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "small")
 
-_model = None
+_model = None # meaning that the model is not loaded yet
 
 
 def _load_wav_samples(chunk_path: str) -> np.ndarray:
