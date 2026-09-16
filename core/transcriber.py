@@ -1,6 +1,6 @@
 import whisper
 import os
-import wave
+import wave #used to read wav files
 
 import numpy as np
 
