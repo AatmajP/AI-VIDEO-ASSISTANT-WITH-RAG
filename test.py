@@ -12,7 +12,7 @@ language = "english"   # "english" → Whisper
 
 
 
-chunks = process_input(source) #
+chunks = process_input(source) # means that the audio from the source (YouTube video) is processed and divided into smaller segments or chunks for easier transcription. This is typically done to handle long audio files more efficiently and to improve the accuracy of the transcription process.
 
 
 transcript = transcribe_all(chunks, translate=language != "english")
