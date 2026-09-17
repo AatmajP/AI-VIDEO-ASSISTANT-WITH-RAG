@@ -12,7 +12,7 @@ language = "english"   # "english" → Whisper
 
 
 
-chunks = process_input(source)
+chunks = process_input(source) #
 
 
 transcript = transcribe_all(chunks, translate=language != "english")
