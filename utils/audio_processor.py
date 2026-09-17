@@ -1,4 +1,4 @@
-import os
+import os # For interacting with the operating system
 from pathlib import Path
 
 import imageio_ffmpeg
