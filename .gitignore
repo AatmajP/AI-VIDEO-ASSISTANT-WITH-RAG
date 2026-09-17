@@ -1,7 +1,7 @@
-downloads/* # Ignore all files in the downloads directory
+downloads/*
 !downloads/.gitkeep
 
 .venv/
 __pycache__/
-*.pyc   
+*.pyc
 .env
