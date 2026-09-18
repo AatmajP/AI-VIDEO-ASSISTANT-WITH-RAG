@@ -305,7 +305,7 @@ label { color: var(--text-muted) !important; font-size: 0.8rem !important; }
 
 # ─── Session State Init ──────────────────────────────────────────────────────────
 for key, default in {
-    "result": None,
+    "result": Noe,
     "chat_history": [],
     "processing": False,
     "pipeline_done": False,
