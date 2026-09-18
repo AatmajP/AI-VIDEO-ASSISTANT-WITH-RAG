@@ -2,7 +2,8 @@ import os # For interacting with the operating system
 from pathlib import Path
 
 import imageio_ffmpeg  # For handling audio/video processing with FFmpeg  
-                       # The imageio_ffmpeg library provides a convenient way to access the FFmpeg executable, which is used for audio and video processing tasks. It allows you to perform operations such as format conversion, audio extraction, and more.  
+                       # The imageio_ffmpeg library provides a convenient way to access the FFmpeg executable,
+                       #  which is used for audio and video processing tasks. It allows you to perform operations such as format conversion, audio extraction, and more.  
 import yt_dlp  # YouTube video download library
 
 ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
