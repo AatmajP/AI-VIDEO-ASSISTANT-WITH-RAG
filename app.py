@@ -430,7 +430,7 @@ if run_btn:
 if st.session_state.result:
     r = st.session_state.result
 
-    # Title banner
+    # Title banner 
     st.markdown(f"""
     <div class="card">
         <div class="card-title">📌 Session Title</div>
