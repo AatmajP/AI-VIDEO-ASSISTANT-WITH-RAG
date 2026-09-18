@@ -447,7 +447,7 @@ if st.session_state.result:
         <div class="card">
             <div class="card-title">📋 Summary</div>
             <div class="card-content">{r['summary']}</div>
-        </div>""", unsafe_allow_html=True)
+        </div>""", unsafe_allow_html=True) 
 
     with col2:
         with st.expander("📝 Full Transcript", expanded=False):
