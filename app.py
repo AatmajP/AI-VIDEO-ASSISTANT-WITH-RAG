@@ -453,7 +453,7 @@ if st.session_state.result:
         with st.expander("📝 Full Transcript", expanded=False):
             st.markdown(f'<div class="transcript-box">{r["transcript"]}</div>', unsafe_allow_html=True)
 
-    # Second row: action items | decisions | questions
+    # Second row: action items | decisions | question
     c1, c2, c3 = st.columns(3, gap="medium")
 
     with c1:
