@@ -428,7 +428,7 @@ if run_btn:
 
 # ── Results ──────────────────────────────────────────────────────────────────────
 if st.session_state.result:
-    r = st.session_state.result
+    r = st.session_state.result 
 
     # Title banner 
     st.markdown(f"""
