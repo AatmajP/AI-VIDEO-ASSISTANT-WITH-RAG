@@ -373,7 +373,7 @@ if run_btn:
         progress_placeholder = st.empty()
 
         def update_step(key, state):
-            st.session_state.pipeline_steps[key] = state
+            st.session_state.pipeline_steps[key] = state 
 
         try:
             with progress_placeholder.container():
