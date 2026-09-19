@@ -393,7 +393,7 @@ if run_btn:
 
             update_step("summary", "active")
             summary = summarize(transcript)
-            update_step("summary", "done")
+            update_step("summary", "done") 
 
             update_step("extract", "active")
             action_items  = extract_action_items(transcript)
