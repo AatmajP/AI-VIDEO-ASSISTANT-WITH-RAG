@@ -457,7 +457,7 @@ if st.session_state.result:
     c1, c2, c3 = st.columns(3, gap="medium")
 
     with c1:
-        st.markdown(f"""
+        st.markdown(f""" 
         <div class="card">
             <div class="card-title">✅ Action Items</div>
             <div class="card-content">{r['action_items']}</div>
