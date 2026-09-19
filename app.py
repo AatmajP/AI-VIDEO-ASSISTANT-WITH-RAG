@@ -379,7 +379,7 @@ if run_btn:
             with progress_placeholder.container():
                 st.info("⚙️ Pipeline running — see sidebar for live status…")
 
-            update_step("audio", "active")
+            update_step("audio", "active") 
             chunks = process_input(source)
             update_step("audio", "done")
 
