@@ -437,7 +437,7 @@ if st.session_state.result:
         <div style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;color:var(--text)">
             {r['title']}
         </div>
-    </div>""", unsafe_allow_html=True) #
+    </div>""", unsafe_allow_html=True) # Title banner
 
     # Top row: summary + transcript
     col1, col2 = st.columns([3, 2], gap="medium")
