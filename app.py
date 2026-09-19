@@ -368,7 +368,7 @@ if run_btn:
         st.session_state.pipeline_done = False
         st.session_state.result = None
         st.session_state.chat_history = []
-        st.session_state.pipeline_steps = {}
+        st.session_state.pipeline_steps = {} 
 
         progress_placeholder = st.empty()
 
