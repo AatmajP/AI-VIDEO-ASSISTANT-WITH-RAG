@@ -436,7 +436,7 @@ if st.session_state.result:
         <div class="card-title">📌 Session Title</div>
         <div style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;color:var(--text)">
             {r['title']}
-        </div>
+        </div>    
     </div>""", unsafe_allow_html=True) # Title banner
 
     # Top row: summary + transcript
