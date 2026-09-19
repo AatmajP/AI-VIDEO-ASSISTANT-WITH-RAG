@@ -449,7 +449,7 @@ if st.session_state.result:
             <div class="card-content">{r['summary']}</div>
         </div>""", unsafe_allow_html=True) 
 
-    with col2:
+    with col2: 
         with st.expander("📝 Full Transcript", expanded=False):
             st.markdown(f'<div class="transcript-box">{r["transcript"]}</div>', unsafe_allow_html=True)
 
