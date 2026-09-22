@@ -22,7 +22,7 @@ print("=" * 60)
 print(transcript[:500] + "..." if len(transcript) > 500 else transcript)
 
 
-title = generate_title(transcript)
+title = generate_title(transcript) 
 summary = summarize(transcript)
 
 print("\n" + "=" * 60)
