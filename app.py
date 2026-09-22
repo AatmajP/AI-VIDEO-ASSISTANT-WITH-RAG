@@ -369,6 +369,7 @@ if run_btn:
         st.session_state.result = None
         st.session_state.chat_history = []
         st.session_state.pipeline_steps = {} 
+        
 
         progress_placeholder = st.empty()
 
@@ -382,7 +383,7 @@ if run_btn:
             update_step("audio", "active") 
             chunks = process_input(source)
             update_step("audio", "done")
-            
+
 
             update_step("transcript", "active")
             transcript = transcribe_all(chunks, language)
