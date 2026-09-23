@@ -382,7 +382,7 @@ if run_btn:
 
             update_step("audio", "active") 
             chunks = process_input(source)
-            update_step("audio", "done")
+            update_step("audio", "done") 
 
 
             update_step("transcript", "active")
