@@ -41,7 +41,7 @@ questions = extract_questions(transcript)
 
 #tells the user what the action items
 print("\n" + "=" * 60)
-print("✅ ACTION ITEMS")
+print("✅ ACTION ITEMS") 
 print("=" * 60)
 print(action_items)
 
