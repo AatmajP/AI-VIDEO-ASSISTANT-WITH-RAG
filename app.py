@@ -376,7 +376,7 @@ if run_btn:
         def update_step(key, state):
             st.session_state.pipeline_steps[key] = state 
 
-        try:
+        try: 
             with progress_placeholder.container():
                 st.info("⚙️ Pipeline running — see sidebar for live status…")
 
