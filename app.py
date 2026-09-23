@@ -366,7 +366,7 @@ if run_btn:
         st.error("Please enter a YouTube URL or file path.")
     else:
         st.session_state.pipeline_done = False
-        st.session_state.result = None
+        st.session_state.result = None 
         st.session_state.chat_history = []   
         st.session_state.pipeline_steps = {} 
 
