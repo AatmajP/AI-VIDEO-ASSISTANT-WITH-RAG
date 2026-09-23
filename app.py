@@ -420,7 +420,7 @@ if run_btn:
             progress_placeholder.success("✅ Analysis complete!")
             time.sleep(0.5)
             progress_placeholder.empty()
-            st.rerun()
+            st.rerun() 
 
         except Exception as e:
             for k in ["audio","transcript","title","summary","extract","rag"]:
