@@ -16,7 +16,7 @@ chunks = process_input(source) # means that the audio from the source (YouTube v
 
 
 transcript = transcribe_all(chunks, translate=language != "english")
-print("\n" + "=" * 60)
+print("\n" + "=" * 60) 
 print("📝 TRANSCRIPT") 
 print("=" * 60)   
 print(transcript[:500] + "..." if len(transcript) > 500 else transcript)
