@@ -35,7 +35,7 @@ print(summary)
 
 
 action_items = extract_action_items(transcript)
-decisions = extract_key_decisions(transcript)
+decisions = extract_key_decisions(transcript) 
 questions = extract_questions(transcript)
 
 
