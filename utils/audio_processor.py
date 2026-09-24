@@ -6,7 +6,7 @@ import imageio_ffmpeg  # For handling audio/video processing with FFmpeg
                        #  which is used for audio and video processing tasks. It allows you to perform operations such as format conversion, audio extraction, and more.  
 import yt_dlp  # YouTube video download library
 
-ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
+ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe() 
 os.environ["PATH"] = os.pathsep.join( 
     [str(Path(ffmpeg_exe).parent), os.environ.get("PATH", "")]
 )
