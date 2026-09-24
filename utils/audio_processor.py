@@ -31,7 +31,7 @@ def download_youtube_audio(url :str) ->str:
             }
         ],
         "ffmpeg_location": imageio_ffmpeg.get_ffmpeg_exe(),
-        "quiet": True,
+        "quiet": True, 
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=True)
