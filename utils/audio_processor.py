@@ -9,7 +9,7 @@ import yt_dlp  # YouTube video download library
 ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe() 
 os.environ["PATH"] = os.pathsep.join( 
     [str(Path(ffmpeg_exe).parent), os.environ.get("PATH", "")]
-)
+) 
 
 from pydub import AudioSegment  # Audio processing library
 
