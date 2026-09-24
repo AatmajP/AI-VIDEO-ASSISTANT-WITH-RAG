@@ -72,7 +72,7 @@ def chunk_audio(wav_path : str , chunk_minutes : int = 10) -> list:
 
         chunks.append(chunk_path)
     
-    return chunks 
+    return chunks
 
 # Process input source (YouTube URL or local file) and return audio chunks
 
