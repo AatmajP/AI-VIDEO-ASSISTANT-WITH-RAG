@@ -7,7 +7,7 @@ import imageio_ffmpeg  # For handling audio/video processing with FFmpeg
 import yt_dlp  # YouTube video download library
 
 ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
-os.environ["PATH"] = os.pathsep.join(
+os.environ["PATH"] = os.pathsep.join( 
     [str(Path(ffmpeg_exe).parent), os.environ.get("PATH", "")]
 )
 
