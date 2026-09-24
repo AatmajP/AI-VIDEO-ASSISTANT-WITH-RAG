@@ -82,7 +82,7 @@ def process_input(source: str) -> list:
         wav_path = download_youtube_audio(source)
     else:
         print("Detected local file. Converting to WAV...")
-        wav_path = convert_to_wav(source)
+        wav_path = convert_to_wav(source) 
 
     print("Chunking audio...")
     chunks = chunk_audio(wav_path) 
