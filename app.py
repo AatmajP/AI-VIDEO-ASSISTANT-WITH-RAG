@@ -444,7 +444,7 @@ if st.session_state.result:
     # Top row: summary + transcript
     col1, col2 = st.columns([3, 2], gap="medium") 
 
-    with col1:
+    with col1: 
         st.markdown(f"""
         <div class="card">
             <div class="card-title">📋 Summary</div>
