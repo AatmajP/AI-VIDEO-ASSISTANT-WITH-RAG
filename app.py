@@ -415,7 +415,7 @@ if run_btn:
                 "key_decisions": decisions,
                 "open_questions": questions,
                 "rag_chain": rag_chain,  
-            }
+            } 
             st.session_state.pipeline_done = True
             progress_placeholder.success("✅ Analysis complete!")
             time.sleep(0.5)
