@@ -30,7 +30,7 @@ print(f"📌 TITLE: {title}")
 print("=" * 60)
 print("\n📋 SUMMARY")
 print("-" * 60)
-print(summary)  
+print(summary)   
 
 
 
