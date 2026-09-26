@@ -466,7 +466,7 @@ if st.session_state.result:
         </div>""", unsafe_allow_html=True)
 
     with c2:
-        st.markdown(f"""
+        st.markd own(f"""
         <div class="card">
             <div class="card-title">🔑 Key Decisions</div>
             <div class="card-content">{r['key_decisions']}</div>
