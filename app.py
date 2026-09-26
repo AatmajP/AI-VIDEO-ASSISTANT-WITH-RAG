@@ -426,7 +426,7 @@ if run_btn:
             for k in ["audio","transcript","title","summary","extract","rag"]:
                 if st.session_state.pipeline_steps.get(k) == "active":
                     st.session_state.pipeline_steps[k] = "pending"
-            progress_placeholder.error(f"❌ Error: {e}")
+            progress_placeholder.error(f"❌ Error: {e}") 
 
 # ── Results ──────────────────────────────────────────────────────────────────────
 if st.session_state.result:
