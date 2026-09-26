@@ -442,7 +442,7 @@ if st.session_state.result:
     </div>""", unsafe_allow_html=True) # Title banner
 
     # Top row: summary + transcript
-    col1, col2 = st.columns([3, 2], gap="medium")
+    col1, col2 = st.columns([3, 2], gap="medium") 
 
     with col1:
         st.markdown(f"""
