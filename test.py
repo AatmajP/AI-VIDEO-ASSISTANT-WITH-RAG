@@ -30,13 +30,14 @@ print(f"📌 TITLE: {title}")
 print("=" * 60)
 print("\n📋 SUMMARY")
 print("-" * 60)
-print(summary) 
+print(summary)  
 
 
 
 action_items = extract_action_items(transcript)
 decisions = extract_key_decisions(transcript) 
 questions = extract_questions(transcript)
+
 
 
 #tells the user what the action items
