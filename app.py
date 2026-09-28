@@ -405,7 +405,7 @@ if run_btn:
 
             update_step("rag", "active")
             rag_chain = build_rag_chain(transcript)
-            update_step("rag", "done")
+            update_step("rag", "done" )
 
             st.session_state.result = {
                 "title": title,
