@@ -433,7 +433,7 @@ if st.session_state.result:
     r = st.session_state.result   
 
     # Title banner 
-    st.markdown(f"""
+    st.markdown(f""" 
     <div class="card">
         <div class="card-title">📌 Session Title</div>
         <div style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;color:var(--text)">
