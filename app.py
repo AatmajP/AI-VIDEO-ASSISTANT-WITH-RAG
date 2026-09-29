@@ -390,7 +390,7 @@ if run_btn:
             update_step("transcript", "done")
 
             update_step("title", "active")
-            title = generate_title(transcript)
+            title = generate_title(transcript) 
             update_step("title", "done")
 
             update_step("summary", "active") 
