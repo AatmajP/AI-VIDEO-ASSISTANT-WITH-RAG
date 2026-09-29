@@ -29,7 +29,7 @@ print("\n" + "=" * 60)
 print(f"📌 TITLE: {title}") 
 print("=" * 60)
 print("\n📋 SUMMARY")
-print("-" * 60)
+print("-" * 60) 
 print(summary)   
 
 
