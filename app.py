@@ -393,7 +393,7 @@ if run_btn:
             title = generate_title(transcript)
             update_step("title", "done")
 
-            update_step("summary", "active")
+            update_step("summary", "active") 
             summary = summarize(transcript)
             update_step("summary", "done") 
 
