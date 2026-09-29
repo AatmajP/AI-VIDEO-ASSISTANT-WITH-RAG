@@ -403,7 +403,7 @@ if run_btn:
             questions     = extract_questions(transcript)
             update_step("extract", "done")
 
-            update_step("rag", "active")
+            update_step("rag", "active") 
             rag_chain = build_rag_chain(transcript)
             update_step("rag", "done" )
 
@@ -413,7 +413,7 @@ if run_btn:
                 "summary": summary,
                 "action_items": action_items,
                 "key_decisions": decisions,
-                "open_questions": questions,
+                "open_questions": questions, 
                 "rag_chain": rag_chain,   
             } 
             st.session_state.pipeline_done = True
