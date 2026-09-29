@@ -48,7 +48,7 @@ print(action_items)
 
 #tells the user what the key decisions are
 print("\n" + "=" * 60)
-print("🔑 KEY DECISIONS")
+print("🔑 KEY DECISIONS") 
 print("=" * 60)
 print(decisions) 
 
