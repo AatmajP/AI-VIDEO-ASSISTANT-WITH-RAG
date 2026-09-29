@@ -401,7 +401,7 @@ if run_btn:
             action_items  = extract_action_items(transcript)
             decisions     = extract_key_decisions(transcript)
             questions     = extract_questions(transcript)
-            update_step("extract", "done")
+            update_step("extract", "done") 
 
             update_step("rag", "active") 
             rag_chain = build_rag_chain(transcript)
