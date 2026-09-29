@@ -21,7 +21,7 @@ os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 def download_youtube_audio(url :str) ->str:
     output_path = os.path.join(DOWNLOAD_DIR, "%(title)s.%(ext)s") # Output template for downloaded audio
     ydl_opts = {
-        "format": "bestaudio/best",
+        "format": "bestaudio/bes t",
         "outtmpl": output_path, 
         "postprocessors": [
             {
