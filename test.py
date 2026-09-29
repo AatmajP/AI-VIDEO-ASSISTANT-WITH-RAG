@@ -44,7 +44,7 @@ questions = extract_questions(transcript)
 print("\n" + "=" * 60)
 print("✅ ACTION ITEMS") 
 print("=" * 60) 
-print(action_items)
+print(action_items) 
 
 #tells the user what the key decisions are
 print("\n" + "=" * 60)
