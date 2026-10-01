@@ -57,4 +57,4 @@ print(decisions)
 print("\n" + "=" * 60)
 print("❓ OPEN QUESTIONS")
 print("=" * 60)
-print(questions) 8
+print(questions) 
