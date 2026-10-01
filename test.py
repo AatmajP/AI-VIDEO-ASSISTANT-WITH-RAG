@@ -56,5 +56,5 @@ print(decisions)
 #tells the user what the open questions are
 print("\n" + "=" * 60)
 print("❓ OPEN QUESTIONS")
-print("=" * 60)
+print("=" * 60) 
 print(questions) 
